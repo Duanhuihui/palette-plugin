@@ -48,3 +48,33 @@ export default tseslint.config({
   },
 })
 ```
+## How to use this plugin
+
+1. Install the plugin:
+
+```cmd 
+  npm install
+```
+2. Run the project,then you can develop in the browser
+```cmd 
+  npm run dev
+``` 
+3. Build the project, then you can use in the production
+```cmd 
+  npm run build
+```
+after that, a new folder will be created in the root directory named "palette"
+
+
+plugin icon: 
+
+![alt text](image.png)
+
+plugin shotcut:
+
+![alt text](image-1.png)
+
+
+
+## IF YOU DONT WANT TO DEVELOP IN LOCAL, JUST USE THE EXTENSION 
+import this file [ palette.crx](palette.crx) to chrome just like a chrome extension

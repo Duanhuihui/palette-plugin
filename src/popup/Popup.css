@@ -1,0 +1,80 @@
+.Popup {
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif */
+    display: flex;
+}
+.Popup sketch-picker{
+  box-shadow:none !important
+
+}
+.Popup .content {
+    border: none;
+    margin-top: 10px;
+    width: 190px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Popup .sub-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-bottom: 10px; */
+    margin-right: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+.Popup .sub-content img {
+    cursor: pointer;
+}
+.grid-container {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  
+  .grid-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .grid-cell {
+    width: 27px;
+    height: 27px;
+    background-color: #333;
+    cursor: pointer;
+  }
+  /* 高级简洁的按钮样式 */
+.button {
+    appearance: none;
+    background-color: #007bff; /* 按钮背景颜色 */
+    border: none;
+    border-radius: 8px; /* 圆角 */
+    color: #ffffff; /* 文字颜色 */
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 110px;
+    margin-top: 30px;
+    margin-right: 8px;
+    padding: 5px 35px  5px 35px; /* 内边距 */
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease; /* 过渡效果 */
+    user-select: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 阴影 */
+  }
+  
+  /* 鼠标悬停时的效果 */
+  .button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* 按钮被激活时的效果 */
+  .button:active {
+    transform: translateY(2px); /* 下压效果 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
